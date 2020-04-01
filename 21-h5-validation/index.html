@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./rectangle.css">
+</head>
+<body>
+  <form class="main">
+    <label>宽度：</label>
+    <input id="width" type="number" data-label="宽度" autofocus required min="0" step="0.01">
+    <span></span>
+    <br>
+    <div id="width-validation-message"></div>
+    <label>高度：</label>
+    <input id="height" type="number" data-label="高度" required min="0" step="0.01">
+    <span></span>
+    <br>  
+    <div id="height-validation-message"></div>
+    <input id="calculate" type="submit" value="计算">
+    <br>  
+    <label>周长：</label>
+    <input id="perimeter" type="text" disabled>
+    <br>  
+    <label>面积：</label>
+    <input id="area" type="text" disabled>
+  </form>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <!-- build:js bundle.min.js -->
+  <script src="./util.js"></script>
+  <script src="./rectangle.js"></script>
+  <!-- endbuild -->
+</body>
+</html> 

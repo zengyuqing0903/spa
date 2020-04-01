@@ -1,0 +1,19 @@
+{
+  "name": "spa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zengyuqing0903/spa.git"
+  },
+  "author": "zyq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zengyuqing0903/spa/issues"
+  },
+  "homepage": "https://github.com/zengyuqing0903/spa#readme"
+}
